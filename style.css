@@ -17,9 +17,6 @@
     opacity: 0.7;
 }
 
-/* .text {
-    text-align: center;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-} */
+.bg-color {
+    background-color: #289BDE !important;
+}
