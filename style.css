@@ -20,3 +20,31 @@
 .bg-color {
     background-color: #289BDE !important;
 }
+
+/* Responsive media query for mobile */
+
+@media (max-width: 576px) {
+    .carousel-item .carousel-text {
+        height: 128px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .carousel-text .button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+/* Responsive media query for large device */
+@media (min-width: 992px) {
+    .carousel-item .carousel-text {
+        height: 100%;
+    }
+}
