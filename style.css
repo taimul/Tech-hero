@@ -42,6 +42,13 @@
     }
 }
 
+@media screen and (min-width: 577px) and (max-width: 991px) {
+
+    .text-fix {
+        text-align: center;
+    }
+}
+
 /* Responsive media query for large device */
 @media (min-width: 992px) {
     .carousel-item .carousel-text {
