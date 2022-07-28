@@ -1,0 +1,18 @@
+.carousel-item {
+    background: no-repeat scroll center scroll;
+    -webkit-backdrop-size: cover;
+    background-size: cover;
+}
+
+.carousel-item::before {
+    content: "";
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #1D1D1D;
+    opacity: 0.7;
+}
