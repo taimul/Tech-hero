@@ -1,3 +1,9 @@
+main {
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
 .carousel-item {
     background: no-repeat scroll center scroll;
     -webkit-backdrop-size: cover;
@@ -29,23 +35,40 @@
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .carousel-text .button {
         font-size: 16px;
         padding: 10px;
     }
+
+    .accordion-fix {
+        margin-bottom: 60px;
+    }
+
+    .card-section .hide {
+        display: none;
+    }
 }
 
+/* responsive for tablet device */
 @media screen and (min-width: 577px) and (max-width: 991px) {
 
     .text-fix {
         text-align: center;
+    }
+
+    .accordion-fix {
+        margin-bottom: 60px;
+    }
+
+    .card-section .hide {
+        display: none;
     }
 }
 
@@ -53,5 +76,10 @@
 @media (min-width: 992px) {
     .carousel-item .carousel-text {
         height: 100%;
+    }
+
+    .accordion-fix {
+        width: 75%;
+        margin-bottom: 10px;
     }
 }
